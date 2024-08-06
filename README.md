@@ -1,6 +1,6 @@
 <p align="center"><br><img src="https://user-images.githubusercontent.com/236501/85893648-1c92e880-b7a8-11ea-926d-95355b8175c7.png" width="128" height="128" /></p>
 <h3 align="center">PHOTO VIEWER</h3>
-<p align="center"><strong><code>matfantinel/capacitor-photoviewer</code></strong></p>
+<p align="center"><strong><code>@matfantinel/capacitor-photoviewer</code></strong></p>
 <br>
 <p align="center" style="font-size:50px;color:red"><strong>Capacitor 6</strong></p>
 <p align="center" style="font-size:50px;color:red"><strong>Disclaimer</strong></p>
@@ -101,7 +101,7 @@ meaning that it will not work in IE11 without additional JavaScript transformati
 ## Installation
 
 ```bash
-npm install matfantinel/capacitor-photoviewer
+npm install @matfantinel/capacitor-photoviewer
 npx cap sync
 ```
 
