@@ -1,11 +1,14 @@
 <p align="center"><br><img src="https://user-images.githubusercontent.com/236501/85893648-1c92e880-b7a8-11ea-926d-95355b8175c7.png" width="128" height="128" /></p>
 <h3 align="center">PHOTO VIEWER</h3>
-<p align="center"><strong><code>@capacitor-community/photoviewer</code></strong></p>
+<p align="center"><strong><code>matfantinel/capacitor-photoviewer</code></strong></p>
 <br>
-<p align="center" style="font-size:50px;color:red"><strong>Capacitor 5</strong></p>
+<p align="center" style="font-size:50px;color:red"><strong>Capacitor 6</strong></p>
+<p align="center" style="font-size:50px;color:red"><strong>Disclaimer</strong></p>
+<p>The original plugin seems to be no longer maintained, so I created this fork to add support for Capacitor 6 as a temporary workaround. I do not recommend relying on it, as it <strong>might not be updated in the future</strong>. I highly recommend looking for an alternative plugin or just getting rid of it altogether.
+</p>
 <br>
 <!-- Note from the Owner - Start -->
-<p align="center" style="font-size:50px;color:red"><strong>Note from the Owner</strong></p>
+<p align="center" style="font-size:50px;color:red"><strong>Note from the upstream Owner</strong></p>
 <!-- Note from the Owner - End -->
 <br>
 <!-- Message below Note from the Owner - Start -->
@@ -75,7 +78,7 @@ On iOS plugin, the creation of a movie from the pictures stored in the <strong>A
 | ----------------- | ----------------------------------------- | ------ |
 | Quéau Jean Pierre | [jepiqueau](https://github.com/jepiqueau) |        |
 
-## CAPACITOR 5 (Master)
+## CAPACITOR 6 (Master)
 
 For more info on releases:
 
@@ -98,7 +101,7 @@ meaning that it will not work in IE11 without additional JavaScript transformati
 ## Installation
 
 ```bash
-npm install @capacitor-community/photoviewer
+npm install matfantinel/capacitor-photoviewer
 npx cap sync
 ```
 

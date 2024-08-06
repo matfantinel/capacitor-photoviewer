@@ -1,5 +1,5 @@
 {
-  "name": "@capacitor-community/photoviewer",
+  "name": "matfantinel/capacitor-photoviewer",
   "version": "3.2.0",
   "description": "PhotoViewer table images with fullscreen and sharing capabilities",
   "main": "dist/plugin.cjs.js",
@@ -11,19 +11,19 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorCommunityPhotoviewer.podspec"
+    "MatfantinelCapacitorPhotoviewer.podspec"
   ],
-  "author": "Jean Pierre Quéau",
+  "author": "Matheus Fantinel",
   "license": "MIT",
   "engines": {
     "node": ">=16.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/capacitor-community/photoviewer.git"
+    "url": "git+https://github.com/matfantinel/capacitor-photoviewer.git"
   },
   "bugs": {
-    "url": "https://github.com/capacitor-community/photoviewer/issues"
+    "url": "https://github.com/matfantinel/capacitor-photoviewer/issues"
   },
   "keywords": [
     "capacitor",
@@ -49,10 +49,10 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@capacitor/android": "5.7.5",
-    "@capacitor/core": "5.7.5",
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
     "@capacitor/docgen": "^0.0.17",
-    "@capacitor/ios": "5.7.5",
+    "@capacitor/ios": "^6.0.0",
     "@ionic/eslint-config": "^0.3.0",
     "@ionic/prettier-config": "^1.0.1",
     "@ionic/swiftlint-config": "^1.1.2",
@@ -65,7 +65,7 @@
     "typescript": "~4.1.5"
   },
   "peerDependencies": {
-    "@capacitor/core": "5.7.5"
+    "@capacitor/core": "^6.0.0"
   },
   "prettier": "@ionic/prettier-config",
   "swiftlint": "@ionic/swiftlint-config",
